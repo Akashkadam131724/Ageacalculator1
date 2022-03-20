@@ -81,7 +81,7 @@ h1{
     border-radius: 15px;
     border: 1px solid black;
  }
- @media only screen and (max-width:768){
+ @media only screen and (max-width:768px){
      
 div.container{
     /* border: 2px solid black; */
