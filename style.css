@@ -1,3 +1,4 @@
+ 
 *{
     padding: 0;
     margin: 0;
@@ -8,8 +9,8 @@ body{
     height: 100vh;
     align-items: center;
     justify-content: center;
-    background: rgb(156,240,191);
-    background: linear-gradient(0deg, rgba(156,240,191,1) 16%, rgba(253,187,45,1) 100%);
+    background: rgb(40,208,43);
+    background: linear-gradient(0deg, rgba(40,208,43,1) 0%, rgba(2,255,163,1) 0%, rgba(200,242,238,1) 28%, rgba(2,241,255,1) 64%);
 }
 
 div.container{
@@ -26,7 +27,7 @@ div.container{
 }
 
 div.input_box{
-    padding: 30px 25px; 
+    padding: 3rem 2.5rem; 
 }
 
 input{
@@ -36,8 +37,8 @@ margin: 0px 0px 10px 0px;
 }
 
 input,button,label{
-font-size: 18px;
-font-weight: 700;
+font-size: 1.8rem;
+/* font-weight: 700; */
 } 
 
 button {
@@ -50,7 +51,6 @@ button {
     cursor: pointer;
     color: black;
     border: 1px solid black;
-    height: 50px;
 }
 button:hover{
     background-color: black;
@@ -74,7 +74,7 @@ h1{
 }
 #output_box > span{
     background-color: skyblue;
-    font-size: 20px;
+    font-size: 2rem;
     text-align: center;
     color: white;
     margin: 0px 5px;
@@ -85,8 +85,21 @@ h1{
  @media only screen and (max-width:768px){
      
 div.container{
-    /* border: 2px solid black; */
-    width: auto;
-     
+    width: auto;   
 }
+ /* #output_box{
+    width: 100%;
+    justify-content: space-between;
+} */
+
+#output_box > span{
+    background-color: skyblue;
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+    margin: 0px 5px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid black;
+ }
  }
