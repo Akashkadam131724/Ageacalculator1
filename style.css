@@ -43,6 +43,7 @@ font-size: 1.8rem;
 button {
     width: 100%; 
     margin: 20px 0px 10px 0px;
+    height: 40px;
     background-color: skyblue ;
     border: none;
     outline: none;
@@ -93,7 +94,7 @@ div.container{
 
 #output_box > span{
     background-color: skyblue;
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-align: center;
     color: white;
     margin: 0px 5px;
